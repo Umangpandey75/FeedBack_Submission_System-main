@@ -1,0 +1,71 @@
+/* Home.css */
+
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px 20px;
+   font-family: "Playfair Display", serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+  color: #34495e;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 12px 25px;
+  border-radius: 5px;
+  background-color: #2980b9;
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #1f6391;
+}
+
+.btn.btn-dark {
+  background-color: #34495e;
+}
+
+.btn.btn-dark:hover {
+  background-color: #2c3e50;
+}
+
+/* Responsive */
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+    padding: 10px 18px;
+  }
+}
